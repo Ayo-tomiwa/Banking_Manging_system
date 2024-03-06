@@ -848,7 +848,7 @@ while True:
             account_info = bank.get_account_info(account_number)
             print("Your current balance is:", account_info['balance'])
         else:
-            print("Login failed. Please check your account number and PIN.\n ")
+            print("Please check your account number and PIN.\n ")
 
     elif choice == "7":
         # Get account information
