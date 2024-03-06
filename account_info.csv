@@ -1,4 +1,4 @@
-name,account_number,account_type,current_amount,pins
+name,account_number,account_type,current_amount,status,pins
 onifara kehinde,2000281,savings,200.0,married,4721
 onifara toluwani,2000400,savings,200.0,married,1234
 tunde kelani,2000610,current,2000.0,married,1245
@@ -17,3 +17,5 @@ james john,2000257696,savings,200.0,single,2345
 inioluwa,2000589086,savings,3000.0,married,6789
 ibukun oluwajuwon,2000650420,savings,3000.0,married,7890
 beyond fashina,2000631696,savings,5000.0,single,5678
+omidiya feyishayo,2000178779,savings,2000.0,married,2345
+motcho victoria,2000423553,savings,2000.0,single,5675

@@ -95,11 +95,15 @@ class BankManagementSystem:
             with open('account_info.csv', mode='r') as file:
                 reader = csv.DictReader(file)
                 for row in reader:
-                    self.employees[row['employee_id']] = row
-                    account_name, account_number, account_type, initial_balance, personal_info, pin = row
-                    account = BankAccount(account_name, account_number, account_type, float(initial_balance), personal_info, pin)
+                    account_name = row['account_name']
+                    account_number = row['account_number']
+                    account_type = row['account_type']
+                    initial_balance = float(row['initial_balance'])
+                    personal_info = row['personal_info']
+                    pin = row['pin']
+                    account = BankAccount(account_name, account_number, account_type, initial_balance, personal_info, pin)
                     self.accounts[account_number] = account
-                    
+            
     def save_account_to_csv(self, account):
         with open('account_info.csv', mode='a', newline='') as file:
             writer = csv.writer(file)
@@ -747,7 +751,7 @@ def main_menu(bank):
 
 # Create an instance of the Bank Management System
 bank = BankManagementSystem()
-bank.employee_login()
+# bank.employee_login()
 
 while True:
     # Display menu options

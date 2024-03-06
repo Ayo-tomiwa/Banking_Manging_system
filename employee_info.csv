@@ -1,12 +1,12 @@
-employee_id,name,position,contact_info,email,location,hashed_password
-1,tomiwa,1,070660031603,tomiwa@gmail.com,15 idi-aba street,1234
-2,ayo,2,07066031603,ayo@gmail.com,11 adedotun street,5678
-3,tomiwa,1,07066031603,tommy@gmail.com,12 adigbe road,1234
-4,joy,5,07066031603,joyce@gmail.com,13 quarry road,3434
-6,iyanu,1,07066031603,iyanulolu@gmail.com,11 alagbole street,2323
-7,iyanu,bank manager,07089787867,sheyanu@gmail.com,12 isaleigi street,2323
-8,tems,4,07098987656,temson@gmail.com,14 jide taiwo street,1245
-9,iyanu,5,07068369037,shalom@gmail.com,12 saabo road,1245
+employee_id,name,position,contact_info,pin
+1,tomiwa,1,070660031603,1234
+2,ayo,2,07066031603,5678
+3,tomiwa,1,07066031603,1234
+4,joy,5,07066031603,3434
+6,iyanu,1,07066031603,2323
+7,iyanu,bank manager,07089787867,2323
+8,tems,4,07098987656,1245
+9,iyanu,5,07068369037,1245
 10,shalom,bank manager,07066031603,2456
 11,tems,bank manager,90878763636,2345
 12,tems,1,07066031603,1234
